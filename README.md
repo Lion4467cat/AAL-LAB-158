@@ -17,7 +17,10 @@ While the measured time values are very small for small arrays, they increase no
 However, note that time measurements can be influenced by other factors (like system load), but the trend still aligns with the expected complexity.
 Other Ratios:
 
-ln(n)/Swap_Count and n/Swap_Count: These ratios decrease as n increases, which makes sense because bubble sort does not have a logarithmic or linear behavior—the dominant cost is quadratic.
-n·ln(n)/Swap_Count: This ratio also decreases with increasing n, again reinforcing that the underlying behavior of bubble sort is not n·ln(n) but closer to quadratic.
-Overall Inference:
+### ln(n)/Swap_Count and n/Swap_Count: These ratios decrease as n increases, which makes sense because bubble sort does not have a logarithmic or linear behavior—the dominant cost is quadratic.
+###  n·ln(n)/Swap_Count: This ratio also decreases with increasing n, again reinforcing that the underlying behavior of bubble sort is not n·ln(n) but closer to quadratic.
+
+
+
+### Overall Inference:
 The experimental data confirms that bubble sort’s performance is dominated by quadratic behavior. Even though the arrays were randomly generated (which might sometimes yield fewer swaps than the worst-case), the ratios and trends indicate that as the input size increases, the number of swaps (and therefore the time taken) increases approximately as n². This demonstrates why bubble sort is generally unsuitable for larger datasets and why more efficient sorting algorithms are preferred in practice.
