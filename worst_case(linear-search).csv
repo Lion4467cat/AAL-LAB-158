@@ -1,1 +1,14 @@
+n,count,ln(n),ln(n)/count,n/count,n²/count,n·ln(n)/count
+10,10,2.30,0.230,1,10,2.30
+50,50,3.91,0.0782,1,50,3.91
+100,100,4.61,0.0461,1,100,4.61
+1000,1000,6.91,0.00691,1,1000,6.91
+1500,1500,7.31,0.00487,1,1500,7.31
 
+
+
+
+
+As n increases, ln(n)/count decreases, illustrating that logarithmic growth is much slower than linear growth.
+The constant value of n/count confirms the linear behavior of the search.
+n²/count grows linearly with n, and n·ln(n)/count simply mirrors ln(n).
